@@ -1,0 +1,70 @@
+﻿<Window x:Class="resistance_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:resistance_calculator"
+        mc:Ignorable="d"
+        Title="합성 저항 계산기 v1.0 by d2h10s" Height="450" Width="532" ResizeMode="NoResize">
+    <Grid >
+        <Label Content="Made by d2h10s of Seoultech"
+               FontFamily="/resistance_calculator;component/Font/#D2Coding"
+               HorizontalAlignment="Left" VerticalAlignment="Top"
+               HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Background="#FF79A4FF" Width="526" Height="43" FontSize="20"/>
+        <TextBox Name="tb_output"
+                 FontFamily="/resistance_calculator;component/Font/#D2Coding"
+                 IsReadOnly="True"
+                 Height="285" Width="284" Margin="216,118,0,0"
+                 TextWrapping="Wrap" AcceptsReturn="True" VerticalScrollBarVisibility="Visible"
+                 HorizontalAlignment="Left" VerticalAlignment="Top" />
+        <Grid Name="gd_select_num" ShowGridLines="False" HorizontalAlignment="Left" Height="26" Margin="20,56,0,0" VerticalAlignment="Top" Width="480">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="저항 수" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="0" Grid.ColumnSpan="2"/>
+            <RadioButton Name="rb2" Content="2" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="2"/>
+            <RadioButton Name="rb3" Content="3" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="3"/>
+            <RadioButton Name="rb4" Content="4" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="4"/>
+            <RadioButton Name="rb5" Content="5" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="5"/>
+            <RadioButton Name="rb6" Content="6" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="6"/>
+            <RadioButton Name="rb7" Content="7" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="7"/>
+            <RadioButton Name="rb8" Content="8" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="8"/>
+            <RadioButton Name="rb9" Content="9" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="9"/>
+            <RadioButton Name="rb10" Content="10" Checked="rb_Checked" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Center" Grid.Column="10"/>
+        </Grid>
+        <Grid Name ="gd_type" ShowGridLines="False" HorizontalAlignment="Left" Height="266" Margin="20,99,0,0" VerticalAlignment="Top" Width="187"/>
+        <Label Content="목표값" HorizontalAlignment="Left" Margin="10,378,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="target" KeyDown="combination_Click" HorizontalAlignment="Left" Height="23" Margin="63,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
+        <Button Name="serial_combine" Content="직렬 합성" Click="serial_combine_Click" HorizontalAlignment="Left" Margin="230,93,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="parallel_combine" Content="병렬 합성" Click="parallel_combine_Click" HorizontalAlignment="Left" Margin="320,93,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Name="combination" Content="조합 찾기" Click="combination_Click" HorizontalAlignment="Left" Margin="410,93,0,0" VerticalAlignment="Top" Width="75">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="5"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+    </Grid>
+</Window>

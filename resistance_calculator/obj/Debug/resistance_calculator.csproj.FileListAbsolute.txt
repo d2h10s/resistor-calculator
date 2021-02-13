@@ -1,0 +1,15 @@
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\bin\Debug\resistance_calculator.exe.config
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\bin\Debug\resistance_calculator.exe
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\bin\Debug\resistance_calculator.pdb
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.csprojAssemblyReference.cache
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\MainWindow.g.cs
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\App.g.cs
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator_MarkupCompile.cache
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator_MarkupCompile.lref
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\MainWindow.baml
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.g.resources
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.Properties.Resources.resources
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.csproj.GenerateResource.cache
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.csproj.CoreCompileInputs.cache
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.exe
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Debug\resistance_calculator.pdb
