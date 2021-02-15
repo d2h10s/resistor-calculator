@@ -51,7 +51,7 @@ namespace resistance_calculator
 
             tb_output.Text = "\nAuthor: 서울과학기술대학교 최호승\n" +
                 "Github: https://github.com/d2h10s \n" +
-                "Web: https://d2h10s.github.io \n" +
+                "Version: 1.0.1\n" +
                 "--------------------사용법--------------------\n" +
                 "1. 저항 수를 정합니다.\n" +
                 "2. 저항값을 입력합니다.\n" +
@@ -172,6 +172,7 @@ namespace resistance_calculator
 
         private void combination_Click(object sender, RoutedEventArgs e)
         {
+            if (e.GetType() == typeof(KeyEventArgs) && (e as KeyEventArgs).Key != Key.Enter) return;
             result.Clear();
             for (int i = 0; i < pre_idx; i++)
             {

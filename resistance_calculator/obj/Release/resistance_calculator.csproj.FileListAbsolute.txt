@@ -12,3 +12,4 @@ D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resis
 D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Release\resistance_calculator.csproj.CoreCompileInputs.cache
 D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Release\resistance_calculator.exe
 D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Release\resistance_calculator.pdb
+D:\OneDrive - 서울과학기술대학교\repository\resistance_calculator\resistance_calculator\obj\Release\resistance_calculator.csprojAssemblyReference.cache
