@@ -1,4 +1,4 @@
-# resistance_calculator
+# resistor-calculator
 ## Update
 |Version|Release Date|Content|
 |------|------------|-------|
