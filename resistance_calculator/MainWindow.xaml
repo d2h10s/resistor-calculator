@@ -5,9 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:resistance_calculator"
         mc:Ignorable="d"
-        Title="합성 저항 계산기 v1.0.1 by d2h10s" Height="450" Width="532" ResizeMode="NoResize">
+        Title="합성 저항 계산기 v1.0.2 by d2h10s" Height="450" Width="532" ResizeMode="NoResize">
     <Grid >
-        <Label Content="Made by d2h10s of Seoultech"
+        <Label Content="Made by d2h10s"
                FontFamily="/resistance_calculator;component/Font/#D2Coding"
                HorizontalAlignment="Left" VerticalAlignment="Top"
                HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  Background="#FF79A4FF" Width="526" Height="43" FontSize="20"/>
